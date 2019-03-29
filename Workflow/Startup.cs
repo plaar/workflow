@@ -22,7 +22,10 @@ namespace Workflow
         {
             if (env.IsDevelopment())
             {
+
+                //test 2
                 app.UseDeveloperExceptionPage();
+
             }
 
             app.Run(async (context) =>
